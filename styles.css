@@ -1,22 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 :root {
-  --primary-color: lightcoral;
+  --primary-color: radial-gradient(
+    circle farthest-corner at 18.5% 28.5%,
+    rgba(4, 71, 88, 1) 0%,
+    rgba(12, 141, 190, 1) 90%
+  );
   --secondary-color: Dimgrey;
   --tertiary-color: Gainsboro;
 }
 
 body {
-  background-color: var(--primary-color);
+  background: var(--primary-color);
   font-size: 15px;
   font-family: "Lato", sans-serif;
+  height: 87vh;
 }
 
 #container {
   height: 525px;
   width: 360px;
   margin: 100px auto;
-  background: #f7f7f7;
+  background: rgb(247, 247, 247);
   /*box-shadow: 5px 5px 5px var(--tertiary-color);*/
   border-radius: 20px;
 }
@@ -26,8 +31,8 @@ body {
   color: var(--secondary-color);
   padding: 20px;
   text-transform: uppercase;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 19px;
+  font-weight: 700px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   text-align: center;
@@ -36,33 +41,48 @@ body {
 .tipsform {
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
 }
 
 .formImput {
   background: white;
   width: 40px;
   padding: 5px 5px 8px 8px;
+  margin-left: 5px;
+}
+
+.formImput:hover {
+  outline: 2.5px solid var(--secondary-color);
 }
 
 .formImput:focus {
-  border: 3px solid var(--primary-color);
+  border: 4px solid var(--primary-color);
 }
 
 .formSelect {
   width: 100px;
   padding: 5px;
+  /*margin-left: 5px;*/
   font-size: 12px;
+}
+
+.formSelect {
+  outline: 2.5px solid var(--secondary-color);
 }
 
 .formButton {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
-  margin: 30px auto;
+  margin: 25px auto;
   background: var(--primary-color);
   border-radius: 5px;
   width: 200px;
-  height: 50px;
+  height: 60px;
   font-size: 17px;
   color: aliceblue;
+}
+
+.formButton:hover {
+  outline: 2.5px solid var(--secondary-color);
 }
