@@ -12,7 +12,7 @@
 
 body {
   background: var(--primary-color);
-  font-size: 15px;
+  font-size: 18px;
   font-family: "Lato", sans-serif;
   height: 87vh;
 }
@@ -79,7 +79,7 @@ body {
   border-radius: 5px;
   width: 200px;
   height: 60px;
-  font-size: 17px;
+  font-size: 19px;
   color: aliceblue;
 }
 
