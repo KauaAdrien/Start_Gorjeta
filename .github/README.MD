@@ -4,7 +4,7 @@ Aulas gratuitas, promovidas pela OneBitCode para o primeiro Projeto Web do zero.
 <a href="https://start.onebitcode.com/aulas">Para acessar as aulas clique aqui</a>
 </p>
 <p align="center">
-  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;;&nbsp;;&nbsp;
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-lincença">Lincença</a>
 </p>
@@ -26,8 +26,10 @@ A Calculadora de Gorjetas serve para facilitar na hora de calcular a gojeta.
 
 - [Acesse o projeto finalizado](https://kauaadrien.github.io/Start_Gorjeta/)
 
--[Assistir as aulas](https://start.onebitcode.com/aulas)
+- [Assistir as aulas](https://start.onebitcode.com/aulas)
 
 ## :memo: Lincença
 
 ## Esse projeto está sob a licença MIT.
+
+<p align="center">CRIADO COM ❤ POR ONEBITCODE • 2023</p>
